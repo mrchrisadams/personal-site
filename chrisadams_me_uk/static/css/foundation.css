@@ -1933,7 +1933,7 @@ kbd {
   font-family: 'Cooper Hewitt Book';
   src: url("../fonts/CooperHewitt-Book.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Book.woff2") format("woff2"), url("../fonts/CooperHewitt-Book.woff") format("woff"), url("../fonts/CooperHewitt-Book.ttf") format("truetype"), url("../fonts/CooperHewitt-Book.svg#svgFontName") format("svg");
+  src: url("../fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Book.woff") format("woff"), url("../fonts/CooperHewitt-Book.ttf") format("truetype"), url("../fonts/CooperHewitt-Book.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
