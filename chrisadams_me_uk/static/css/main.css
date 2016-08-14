@@ -2,14 +2,14 @@
   font-family: 'Cooper Hewitt Book';
   src: url("../fonts/CooperHewitt-Book.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Book.woff") format("woff"), url("../fonts/CooperHewitt-Book.ttf") format("truetype"), url("../fonts/CooperHewitt-Book.svg#svgFontName") format("svg");
+  src: url("../fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Book.woff") format("woff"), url("../fonts/CooperHewitt-Book.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
   font-family: 'Cooper Hewitt Medium';
   src: url("../fonts/CooperHewitt-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Medium.woff") format("woff"), url("../fonts/CooperHewitt-Medium.ttf") format("truetype"), url("../fonts/CooperHewitt-Medium.svg#svgFontName") format("svg");
+  src: url("../fonts/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Medium.woff") format("woff"), url("../fonts/CooperHewitt-Medium.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 h1, h2, h3, h4, h5, h6, p, li {
