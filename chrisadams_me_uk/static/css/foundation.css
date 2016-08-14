@@ -1944,8 +1944,7 @@ format("svg");
   src: url("../fonts/CooperHewitt-Medium.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/CooperHewitt-Medium.eot?#iefix")
-format("embedded-opentype"), url("../fonts/CooperHewitt-Medium.woff2")
-format("woff2"), url("../fonts/CooperHewitt-Medium.woff")
+format("embedded-opentype"), url("../fonts/CooperHewitt-Medium.woff")
 format("woff"), url("../fonts/CooperHewitt-Medium.svg#svgFontName")
 format("svg");
   /* Legacy iOS */ }
