@@ -12,7 +12,11 @@ from __future__ import absolute_import, unicode_literals
 import os
 
 from django.core.wsgi import get_wsgi_application
+from whitenoise.django import DjangoWhiteNoise
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chrisadams_me_uk.settings.dev")
 
 application = get_wsgi_application()
+
+# Wrap the application, so Whitenoise serves static first
+application = DjangoWhiteNoise(application)
