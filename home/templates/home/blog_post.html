@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% load wagtailmarkdown %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+
+{% block content %}
+    <article>
+    {{ self.body|markdown }}
+    </article>
+{% endblock %}
