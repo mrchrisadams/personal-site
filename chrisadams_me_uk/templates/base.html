@@ -20,6 +20,10 @@
         <link rel="stylesheet" href="{% static '/static/css/foundation.css' %}">
         <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
 
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
         {% endblock %}
