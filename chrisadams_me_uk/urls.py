@@ -19,7 +19,7 @@ urlpatterns = [
 
     url(r'^search/$', search_views.search, name='search'),
 
-    url(r'^\.well-known/acme-challenge/(?P<challenge>[a-zA-Z0-9]+)',
+    url(r'^\.well-known/acme-challenge/(?P<challenge>.+)',
         home_views.acme_challenge, name='acme-challenge'),
 
     url(r'', include(wagtail_urls)),
