@@ -5,6 +5,8 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 from search import views as search_views
+from home import views as home_views
+
 from wagtail.wagtailadmin import urls as wagtailadmin_urls
 from wagtail.wagtailcore import urls as wagtail_urls
 from wagtail.wagtaildocs import urls as wagtaildocs_urls
@@ -17,8 +19,13 @@ urlpatterns = [
 
     url(r'^search/$', search_views.search, name='search'),
 
+    url(r'^\.well-known/acme-challenge/(?P<challenge>[a-zA-Z0-9]+)',
+        home_views.acme_challenge, name='acme-challenge'),
+
     url(r'', include(wagtail_urls)),
 ]
+
+
 
 
 if settings.DEBUG:
