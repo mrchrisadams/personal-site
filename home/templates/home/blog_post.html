@@ -1,12 +1,20 @@
 {% extends "base.html" %}
 
 {% load wagtailmarkdown %}
+{% load wagtailimages_tags %}
+{% load wagtailcore_tags %}
+
 
 {% block body_class %}template-homepage{% endblock %}
 
 
 {% block content %}
     <article>
-    {{ self.body|markdown }}
+      {% for block in page.body %}
+          {% if block.block_type == 'image' %}
+            {% image block.value width-300 %}
+          {% endif %}
+
+      {% endfor %}
     </article>
 {% endblock %}
