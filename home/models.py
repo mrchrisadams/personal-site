@@ -10,7 +10,7 @@ from wagtail.wagtailcore import blocks
 from wagtail.wagtailadmin.edit_handlers import FieldPanel
 from wagtail.wagtailadmin.edit_handlers import StreamFieldPanel
 
-from wagtailmarkdown.fields import MarkdownField, MarkdownPanel
+from wagtailmarkdown.fields import MarkdownField, MarkdownPanel, MarkdownBlock
 
 from wagtail.wagtailimages.blocks import ImageChooserBlock
 from wagtail.wagtailembeds.blocks import EmbedBlock
@@ -24,6 +24,7 @@ class BlogPost(Page):
         ('paragraph', blocks.RichTextBlock()),
         ('image', ImageChooserBlock()),
         ('embed', EmbedBlock()),
+        ('markdown', MarkdownBlock()),
     ])
 
 

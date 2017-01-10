@@ -31,7 +31,7 @@ s3transfer==0.1.1
 six==1.10.0
 static3==0.7.0
 Unidecode==0.4.19
-wagtail==1.5.3
+wagtail==1.8
 -e git://github.com/torchbox/wagtail-markdown@cb92d8aa32c9736e7f5deac91610cd2dc08237f5#egg=wagtail_markdown
 wcwidth==0.1.7
 whitenoise==3.2.1
