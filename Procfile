@@ -1,1 +1,1 @@
-web: gunicorn chrisadams_me_uk.wsgi --log-file -
+web: gunicorn app:app --log-file -
