@@ -3,48 +3,66 @@
   src: url("../fonts/CooperHewitt-Book.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Book.woff") format("woff"), url("../fonts/CooperHewitt-Book.svg#svgFontName") format("svg");
-  /* Legacy iOS */ }
+  /* Legacy iOS */
+}
 
 @font-face {
   font-family: 'Cooper Hewitt Medium';
   src: url("../fonts/CooperHewitt-Medium.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/CooperHewitt-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/CooperHewitt-Medium.woff") format("woff"), url("../fonts/CooperHewitt-Medium.svg#svgFontName") format("svg");
-  /* Legacy iOS */ }
+  /* Legacy iOS */
+}
 
 h1, h2, h3, h4, h5, h6, p, li {
-  font-family: 'Cooper Hewitt Book'; }
+  font-family: 'Cooper Hewitt Book';
+}
 
 p strong {
-  font-family: 'Cooper Hewitt Medium'; }
+  font-family: 'Cooper Hewitt Medium';
+}
 
 p {
   font-size: 1.5rem;
-  max-width: 40em; }
+  max-width: 40em;
+}
 
 h1 {
-  font-size: 3rem; }
+  font-size: 3rem;
+}
 
 h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
 
 li {
   font-size: 1.5em;
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+}
 
 .work-with-me {
   background-color: #333;
+  color: #FFF;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-left: 2rem; }
-  .work-with-me h2, .work-with-me p {
-    color: #FFF; }
+  padding-left: 2rem;
+}
+
+.work-with-me h2, .work-with-me h3, .work-with-me p, .work-with-me li {
+  color: #FFF;
+}
 
 .greeting {
   padding-top: 3rem;
   padding-left: 2rem;
-  background-color: #c6e6f6; }
+  background-color: #c6e6f6;
+}
 
 .contact-me {
   padding-top: 1em;
-  padding-left: 2rem; }
+  padding-left: 2rem;
+}
