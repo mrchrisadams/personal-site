@@ -1,0 +1,19 @@
+{
+  "name": "chrisadamsmeuk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/mrchrisadams/chrisadamsmeuk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mrchrisadams/chrisadamsmeuk#readme",
+  "devDependencies": {
+    "firebase-tools": "^6.8.0"
+  }
+}
